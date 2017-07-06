@@ -1,4 +1,64 @@
-#header {
+a {
+  color: red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: SkyBlue;
+}
+
+.container{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.header {
   text-align: center;
-  font-size: 24px;
+  font-size: 48px;
+}
+
+.item {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+#mainPic{
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+
+.miloPic {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: SlateGray;
+}
+
+.nav-item {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.picFooter {
+  text-align: center;
+  color: white;
+}
+
+.pictureDiv {
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  background-color: SlateGray;
+  margin-bottom: 15px;
+  width: 50%;
+  height: 25%;
 }
